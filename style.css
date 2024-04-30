@@ -14,7 +14,7 @@ body, html {
     width: 100%;
     top: 0;
     z-index: 1000;
-    border-bottom: 3px solid #007bff; /* Blue underline */
+    border-bottom: 3px solid #007bff; 
 }
 
 .navbar a {
@@ -32,7 +32,7 @@ body, html {
     color: black;
 }
 
-/* Styling for the rest of the resume */
+
 .container {
     padding: 100px 20px 20px; /* Adjust top padding to account for fixed navbar */
 }
@@ -45,7 +45,7 @@ h1, h2 {
     margin-bottom: 30px;
     background-color: white; /* Background color for sections */
     padding: 20px; /* Padding inside the sections */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
 }
 
@@ -73,13 +73,12 @@ h1, h2 {
 
 .skills, .certifications, .education {
     list-style-type: disc; /* Changed to disc for bullet points */
-    padding: 20px; /* Add padding inside the box */
-    background-color: white; /* Background color for the box */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
-    margin-bottom: 30px; /* Space between sections */
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    margin-bottom: 30px; 
 }
-
 .skills li, .certifications li, .education li {
     margin-bottom: 10px;
 }

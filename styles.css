@@ -4,7 +4,7 @@ html {
     padding: 0;
     font-family: 'EB Garamond', serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: black;
     height: 100%;
 }
 
@@ -31,17 +31,24 @@ html {
     background-color: #ddd;
     color: black;
 }
+body {
+    background-image: url('background.jpg'); /* how to add images*/
+    background-size: cover; /* Ensure the image covers the whole page */
+    background-position: center center; /* Center the image */
+    /*  Set the image to not move on scroll */
+}
 
 .tagline {
     font-size: 32px;
-    /* Adjust the size as needed */
+    /*To Adjust the size as needed */
     font-weight: bold;
-    /* Optional: Makes the tagline bold */
+    
     text-align: center;
-    /* Optional: Centers the tagline */
+    
     margin-bottom: 40px;
-    /* Optional: Adds space below the tagline */
+    
 }
+
 
 
 .container {
@@ -50,11 +57,11 @@ html {
     gap: 20px;
     padding: 20px;
     margin-top: 50px;
-    /* Adjust to position tiles lower */
+    
 }
 
 .tile {
-    background-color: #007bff;
+    background-color: #ff0037fa;
     color: white;
     padding: 20px;
     text-align: center;
@@ -64,7 +71,17 @@ html {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .tile:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.contact-info a {
+    color: red; /* Set the color of the link to white */
+    text-decoration: none; /* how to remove underline */
+}
+
+.contact-info a:hover {
+    color: white; /* Keeps the color even when the link is hovered over */
+    text-decoration: underline; /* Optional: Adds an underline on hover for visual feedback */
 }
